@@ -65,6 +65,9 @@
         height: fit-content;
         margin-bottom: 2rem;
     }
+    #about{
+        margin-top: 160px;
+    }
     .about-containers, 
     .contact-info-upper-container, 
     .btn-container{
@@ -86,6 +89,7 @@
         flex-direction: column;
         gap: 0.5rem;
         text-align: center;
+        
     }
     .section__pic-container{
         width: auto;
@@ -107,5 +111,22 @@
 
     .menu-links a{
         font-size: 15px;
+
     }
+    .menu-links{
+        z-index: 1000;
+        display: flex;
+        margin-top: 8px;
+        margin-left: 8px;
+    }
+    .menu-links:hover{
+        font-weight: bolder;
+    }
+
+    .neon-logo{
+        width: 300px;
+        height: 300px;
+        margin: auto;
+    }
+
 }
