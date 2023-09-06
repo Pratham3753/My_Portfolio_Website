@@ -6,7 +6,9 @@
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
-    <link rel="icon"  type="image/x-icon" href="favicon.jpg">
+    <link rel="icon"  type="image/x-icon" href="./assets/favicon.jpg">
+    
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
     
   </head>
   <body>
@@ -23,7 +25,7 @@
     </nav>
 
     <nav id="hamburger-nav">
-      <div class="logo">Prathmesh Jadhav</div>
+      <div class="logo">Prathmesh</div>
       <div class="hamburger-menu">
         <div class="hamburger-icon" onclick="toggleMenu()">
           <span></span>
@@ -40,12 +42,10 @@
     </nav>
     <!-- profile section -->
     <section id="profile">
-      <div class="section__pic-container">
-        <img
-          src="1.jpeg"
-          alt="Prathmesh Jadhav profile
-            picture" class="section__pic-container__1"
-        />
+      <div class="neon-logo">
+       <div class="content">
+          <img src="1.jpeg" alt="" width="500px" height="500px">
+       </div>
       </div>
       <div class="section__text">
         <p class="section__text__p1">Hello, I'm</p>
@@ -140,44 +140,28 @@
             <h2 class="experience-sub-title">Frontend Development</h2>
             <div class="article-container">
               <article>
-                <img
-                  src="checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
+                <i><box-icon name='html5' type='logo' class="prath"></box-icon></i>
                 <div>
                   <h3>HTML</h3>
                   <p>Advanced</p>
                 </div>
               </article>
               <article>
-                <img
-                  src="checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
+                <i><box-icon name='css3' type='logo' class="prath"></box-icon></i>
                 <div>
                   <h3>CSS</h3>
                   <p>Advanced</p>
                 </div>
               </article>
               <article>
-                <img
-                  src="checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
+                <i><box-icon name='javascript' type='logo' class="prath2"></box-icon></i>
+                <div class="js-css">
                   <h3>Javascript</h3>
                   <p>Intermediate</p>
                 </div>
               </article>
               <article>
-                <img
-                  src="checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
+                <i><box-icon name='react' type='logo' class="prath"></box-icon></i>
                 <div>
                   <h3>React Js</h3>
                   <p>Basic</p>
@@ -189,34 +173,22 @@
             <h2 class="experience-sub-title">Backend Development</h2>
             <div class="article-container">
               <article>
-                <img
-                  src="checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
+                <i><box-icon name='data' type='solid' class="prath"></box-icon></i>
                 <div>
                   <h3>SQL</h3>
                   <p>Advanced</p>
                 </div>
               </article>
               <article>
-                <img
-                  src="checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
+                <i><box-icon name='java' type='logo' class="prath"></box-icon></i>
                 <div>
                   <h3>JAVA</h3>
                   <p>Advanced</p>
                 </div>
               </article>
               <article>
-                <img
-                  src="checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
+                <i><box-icon name='file-json' type='solid' class="prath2"></box-icon></i>
+                <div class="js-css">
                   <h3>WEB SERVICES</h3>
                   <p>Intermediate</p>
                 </div>
@@ -327,7 +299,7 @@
                 alt="Email icon"
                 class="icon contact-icon email-icon"
                 />
-                <p><a href="mailto:jadhavprathamesh3753@gmail.com"> Click Here to Email Me</a></p>
+                <p style="font-size: 14px;"><a href="mailto:examplemail@gmail.com">jadhavprathamesh3753@gmail.com</a></p>
             </div>
             <div class="contact-info-container">
                 <img 
@@ -335,7 +307,7 @@
                 alt="LinkedIn icon"
                 class="icon contact-icon"
                 />
-                <p><a href="https://www.linkedin.com/in/Prathmesh-jadhav-36334b251">LinkedIn</a></p>
+                <p style="font-size: 14px;"><a href="https://www.linkedin.com/in/Prathmesh-jadhav-36334b251">LinkedIn</a></p>
             </div>
         </div>
     </section>
