@@ -65,6 +65,78 @@ a:hover{
 
 /* HAMBURGER menu */
 
+.neon-logo{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    background-color: black;
+    margin: auto 0;
+    overflow: hidden;
+}
+
+.neon-logo::before{
+    position: absolute;
+    content: "";
+    inset: -10px 140px;
+    background: linear-gradient(315deg, #00ccff, #d400d4);
+    transition: 0.5s;
+    animation: animate 4s linear infinite;
+}
+
+
+.neon-logo:hover::before{
+    inset: -20px 0px;
+}
+
+@keyframes animate
+{
+    0%{
+        transform: rotate(0deg);
+    }
+    0%{
+        transform: rotate(360deg);
+    }
+}
+.neon-logo::after{
+    content: "";
+    position: absolute;
+    inset: 10px;
+    z-index: 1;
+    border-radius: 50%;
+    background: #162052;
+}
+.content{
+    position: absolute;
+    inset: 7px;
+    border: 6px solid #070a1c;
+    z-index: 3;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.content img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.prath{
+    
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+.prath2{  
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
 #hamburger-nav {
     display: none;
 }
@@ -317,6 +389,7 @@ a{
     border: rgb(53, 53, 53) 0.1rem solid;
     border-color: rgb(163, 163, 163);
     text-align: center;
+    box-shadow: 10px 10px 5px #aaaaaa;
 }
 
 .section-container{
@@ -356,6 +429,11 @@ a{
     flex-direction: row;
     gap: 2.5rem;
     justify-content: space-around;
+}
+
+.js-css{
+     padding-left: 12px;   
+    
 }
 
 article{
