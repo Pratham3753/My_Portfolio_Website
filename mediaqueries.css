@@ -12,7 +12,7 @@
 
 
 @media screen and (max-width:1200px) {
-    .navbar{
+    .header{
         display: none;
     }
 
@@ -51,7 +51,7 @@
 }
 
 @media screen and (max-width:600px){
-    .navbar{
+    .header{
         display: none;
     }
     #contact,footer{
