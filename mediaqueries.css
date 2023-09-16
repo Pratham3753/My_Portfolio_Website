@@ -144,4 +144,10 @@
     .neon-logo::before{
         inset: -10px 90px;
     }
+    #about{
+        margin-top: 250px;
+    }
+    .web-css{
+        margin-left: 21px;
+    }
 }
