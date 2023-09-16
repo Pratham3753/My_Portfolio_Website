@@ -63,6 +63,50 @@ a:hover{
     cursor: default;
 }
 
+.header{
+    margin: 0 160px;
+    padding: 20px 100px;
+    background: grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header::before{
+    content: '';
+    position: absolute;
+    left: -80%;
+    width: 80%;
+    height: 9.5%;
+    padding: 0 50px;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, .6), transparent);
+    transition: .5s;
+}
+
+.header:hover::before{
+    left: 100%;
+}
+
+.header .logo2{
+    color: black;
+    font-size: 25px;
+    font-weight: 600;
+    text-decoration: none;
+    cursor: default;
+}
+
+.navbar a{
+    color: white;
+    font-size: 20px;
+    padding-left: 35px;  
+    text-decoration: none;
+    font-weight: 500;
+    transition: .3s;
+}
+
+.navbar a:hover{
+    color: cyan;
+}
 /* HAMBURGER menu */
 
 .neon-logo{
@@ -275,6 +319,13 @@ section{
 .title{
     font-size: 3rem;
     text-align: center;
+    color: purple;
+}
+
+.title1{
+    font-size: 3rem;
+    text-align: center;
+    color: darkorange;
 }
 
 #socials-container{
